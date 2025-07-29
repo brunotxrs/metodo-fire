@@ -12,9 +12,9 @@ function App() {
         <h2>JUNTA-SE A NÓS HOJE NO MÉTODO FIRE!</h2>
 
         <p>
-          É HORA DE DEIXAR PARA TRÁS 
-          UMA VIDA DE ATRASO E RENOVAR 
-          SEU CAMINHO RUMO AO SUCESSO
+          É HORA DE DEIXAR <br/> PARA TRÁS <br/> 
+          UMA VIDA<br/> DE ATRASO E<br/> RENOVAR <br/> 
+          SEU CAMINHO<br/> RUMO AO<br/> SUCESSO
         </p>
 
         <span>
