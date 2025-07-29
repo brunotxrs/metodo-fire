@@ -46,7 +46,7 @@ A página apresenta um título impactante, uma chamada para ação clara e uma d
 
 Você pode acessar e explorar o projeto **MÉTODO FIRE** diretamente no seu navegador através do seguinte link:
 
-[**MÉTODO FIRE**]()
+[**MÉTODO FIRE**](https://metodo-fire.vercel.app/)
 
 ## Uso
 
