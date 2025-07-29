@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap');
+
+:root {
+  --color-black: #000;
+  --color-white: #fff;
+  --color-yellow: #FFA500;
+  --filter: drop-shadow(0.125rem 0.125rem 0.3125rem var(--color-yellow));
+
+  --font-anton: "Anton", sans-serif;
+  --font-league-spartan: "League Spartan", sans-serif;
+
+}
+
+html {
+  background: var(--color-black);
+  scrollbar-width: none;
+}
+
+body {
+
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  user-select: none;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
