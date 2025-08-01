@@ -12,9 +12,8 @@
 :root {
   --color-black: #000;
   --color-white: #fff;
-  --color-yellow: #FFA500;
+  --color-red: #ff0000;
   --filter: drop-shadow(0.125rem 0.125rem 0.3125rem var(--color-yellow));
-
   --font-anton: "Anton", sans-serif;
   --font-league-spartan: "League Spartan", sans-serif;
 

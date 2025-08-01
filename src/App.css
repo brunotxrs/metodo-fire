@@ -4,10 +4,8 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background:  linear-gradient(to bottom, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 50%, rgba(0, 0, 0, 0.9) 100%), url(../public/assets/img/background.jpg);
-  background-repeat: no-repeat;
+  background: url(../public/assets/img/background.jpg) no-repeat center;
   background-size: cover;
-  background-position: center;
   overflow: hidden;
   padding: 0 1.25rem;
   display: flex;
@@ -27,36 +25,52 @@
 
 .App .box-App h1 {
   color:  var(--color-white);
-  font-family: var(--font-anton);
+  font-family: var(--font-league-spartan);
   letter-spacing: 0.2rem;
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-shadow: 0.125rem 0.125rem 0.25rem var(--color-black);
   user-select: none;
-  text-align: center;
+  text-align: left;
+  font-weight: 300;
+  line-height: 120%;
+
+  z-index: 2;
 
 }
 
 .App .box-App h2 {
   color:  var(--color-white);
-  line-height: 115%;
-  font-size: 2.2rem;
+  line-height: 100%;
+  font-size: 3.5rem;
   text-shadow: 0.0625rem 0.0625rem 0.125rem var(--color-black);
   font-family: var(--font-league-spartan);
   user-select: none;
+  font-weight: 600;
+  z-index: 2;
+
 
 }
 
+.App .box-App h2 strong {
+  color: var(--color-red);
+  font-family: var(--font-league-spartan);
+  font-size: 3.5rem;
+  line-height: 100%;
+  user-select: none;
+  font-weight: 600;
+}
+
 .App .box-App p {
-  height: 25rem;
-  line-height: 140%;
+  line-height: 100%;
   align-content: center;
-  color:  var(--color-white);
+  color: var(--color-white);
   letter-spacing: 0.1rem;
-  font-size: 1.9rem;
+  font-size: 1.5625rem;
   z-index: 5;
   text-shadow: 0.0625rem 0.0625rem 0.125rem var(--color-black);
   font-family: var(--font-league-spartan);
-  font-weight: 600;
+  font-weight: 300;
+  -webkit-user-select: none;
   user-select: none;
   position: relative;
 }
@@ -79,29 +93,29 @@
 .App .box-App button {
   z-index: 10;
   display: flex;
-  width: 9.375rem;
-  height: 3.125rem;
-  border-radius: 0.625rem;
+  width: 17rem;
+  height: 6rem;
+  border-radius: 4rem;
+  padding: 0.625rem;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin: 1.5625rem 0;
-  background-color: var(--color-yellow);
+  background-color: var(--color-red);
   border: none;
   outline: none;
   box-shadow: 0 0.3125rem 0rem var(--color-black);
   animation: pulsar 1.5s infinite alternate ease-in-out;
+  -webkit-user-select: none;
   user-select: none;
   position: relative;
-  padding: 0.625rem;
-  margin-top: 0.3125rem;
-
+  padding: 0.625rem 1.25rem;
+  margin: 0 auto;
 }
 
 @keyframes pulsar {
   0% {
     transform: scale(1); 
-    box-shadow: 0 0 0 0 rgba(255, 193, 7, 0.7); 
+    box-shadow: 0 0 0 0 rgba(255, 0, 0, 0.7) ; 
   }
 
   50% {
@@ -120,8 +134,10 @@
   height: 100%;
   align-content: center; 
   text-decoration: none;
-  color: var(--color-black);
-  font-size: 1.2rem;
+  color: var(--color-white);
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 120%;
   z-index: 20;
   font-family: var(--font-league-spartan);
   user-select: none;
@@ -130,31 +146,30 @@
 
 .App .box-App img {
   position: absolute;
-  right: -6.5rem;
+  right: -9.5rem;
   bottom: -9.375rem;
   width: 30rem;
-  height: 65rem;
-  filter: var(--filter);
+  height: 47rem;
+  -webkit-user-select: none;
   user-select: none;
 
 }
 
 @media screen and (width > 48rem) {
-  
+
   .App .box-App {
-    max-width: 64rem;
+    width: calc( 100% - 50%);
     height: 100%; 
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
     margin: auto;
     gap: 3.125rem;
   }
 
-  br {
+  /* br {
     display: none;
-  }
+  } */
 
   .App .box-App p  {
     width: 40.625rem;
@@ -166,33 +181,43 @@
 
 }
 
+@media screen and (width > 64rem){
+  .App .box-App {
+    width: calc(100% - 30%);
+  }
+}
 
 @media screen and (width > 64rem) and (orientation: landscape) {
   .App .box-App {
-    max-width: 64rem;
+    width: calc(100% - 50%);
     height: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: space-evenly;
     margin: auto;
     gap: 0rem;
+    padding: 1.875rem 0;
 
   }
 
   .App .box-App p  {
     width: 40.625rem;
-    height: 15.625rem;
     display: flex;
     align-items: center;
 
-    
   }
 
 
   .App .box-App img {
     right: -5.5rem;
-    height: 55rem;
+    height: 46rem;
+  }
+  
+  .App .box-App button {
+    position: absolute;
+
+    right: calc(100% - 80%);
+    top: calc(100vh - 22vh);
   }
 
 }
