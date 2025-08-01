@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.161767a5.css",
-    "main.js": "/static/js/main.95d72406.js",
+    "main.css": "/static/css/main.87f9f14b.css",
+    "main.js": "/static/js/main.7b9cd916.js",
     "static/js/453.5edba89c.chunk.js": "/static/js/453.5edba89c.chunk.js",
-    "static/media/profile.sarom-metodo-fire.png": "/static/media/profile.sarom-metodo-fire.56d6693c47a8714d2fc0.png",
-    "static/media/background.jpg": "/static/media/background.a9762ce4ef24d8da3b99.jpg",
+    "static/media/profile-metodo-fire.png": "/static/media/profile-metodo-fire.972305d29fe8140b4aa6.png",
+    "static/media/background.jpg": "/static/media/background.e3d53f4df785116b9177.jpg",
     "index.html": "/index.html",
-    "main.161767a5.css.map": "/static/css/main.161767a5.css.map",
-    "main.95d72406.js.map": "/static/js/main.95d72406.js.map",
+    "main.87f9f14b.css.map": "/static/css/main.87f9f14b.css.map",
+    "main.7b9cd916.js.map": "/static/js/main.7b9cd916.js.map",
     "453.5edba89c.chunk.js.map": "/static/js/453.5edba89c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.161767a5.css",
-    "static/js/main.95d72406.js"
+    "static/css/main.87f9f14b.css",
+    "static/js/main.7b9cd916.js"
   ]
 }
